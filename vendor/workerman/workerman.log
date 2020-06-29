@@ -1,0 +1,481 @@
+2020-06-22 13:39:25 pid:29247 Workerman[index.php] status 
+2020-06-22 13:39:25 pid:29247 Workerman[index.php] not run
+2020-06-22 13:40:09 pid:29255 Workerman[index.php] start in DEBUG mode
+2020-06-22 14:13:02 pid:29255 Workerman[index.php] stopping ...
+2020-06-22 14:13:02 pid:29255 Workerman[index.php] has been stopped
+2020-06-22 14:13:03 pid:30032 Workerman[index.php] start in DEBUG mode
+2020-06-22 14:13:13 pid:30032 Workerman[index.php] stopping ...
+2020-06-22 14:13:13 pid:30032 Workerman[index.php] has been stopped
+2020-06-22 14:13:51 pid:30144 Workerman[index.php] start in DEBUG mode
+2020-06-22 14:13:51 pid:30145 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(546): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#6 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#7 {main}
+2020-06-22 14:13:52 pid:30145 Worker[30145] process terminated
+2020-06-22 14:13:52 pid:30144 worker[none:30145] exit with status 64000
+2020-06-22 14:13:52 pid:30146 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:53 pid:30146 Worker[30146] process terminated
+2020-06-22 14:13:53 pid:30144 worker[none:30146] exit with status 64000
+2020-06-22 14:13:53 pid:30148 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:54 pid:30148 Worker[30148] process terminated
+2020-06-22 14:13:54 pid:30144 worker[none:30148] exit with status 64000
+2020-06-22 14:13:54 pid:30150 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:55 pid:30150 Worker[30150] process terminated
+2020-06-22 14:13:55 pid:30144 worker[none:30150] exit with status 64000
+2020-06-22 14:13:55 pid:30152 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:56 pid:30152 Worker[30152] process terminated
+2020-06-22 14:13:56 pid:30144 worker[none:30152] exit with status 64000
+2020-06-22 14:13:56 pid:30154 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:57 pid:30154 Worker[30154] process terminated
+2020-06-22 14:13:57 pid:30144 worker[none:30154] exit with status 64000
+2020-06-22 14:13:57 pid:30156 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:58 pid:30156 Worker[30156] process terminated
+2020-06-22 14:13:58 pid:30144 worker[none:30156] exit with status 64000
+2020-06-22 14:13:58 pid:30158 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:13:59 pid:30158 Worker[30158] process terminated
+2020-06-22 14:14:00 pid:30144 worker[none:30158] exit with status 64000
+2020-06-22 14:14:00 pid:30160 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:01 pid:30160 Worker[30160] process terminated
+2020-06-22 14:14:01 pid:30144 worker[none:30160] exit with status 64000
+2020-06-22 14:14:01 pid:30162 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:02 pid:30162 Worker[30162] process terminated
+2020-06-22 14:14:02 pid:30144 worker[none:30162] exit with status 64000
+2020-06-22 14:14:02 pid:30164 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:03 pid:30164 Worker[30164] process terminated
+2020-06-22 14:14:03 pid:30144 worker[none:30164] exit with status 64000
+2020-06-22 14:14:03 pid:30166 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:04 pid:30166 Worker[30166] process terminated
+2020-06-22 14:14:04 pid:30144 worker[none:30166] exit with status 64000
+2020-06-22 14:14:04 pid:30168 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:05 pid:30168 Worker[30168] process terminated
+2020-06-22 14:14:05 pid:30144 worker[none:30168] exit with status 64000
+2020-06-22 14:14:05 pid:30170 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:06 pid:30170 Worker[30170] process terminated
+2020-06-22 14:14:06 pid:30144 worker[none:30170] exit with status 64000
+2020-06-22 14:14:06 pid:30172 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:07 pid:30172 Worker[30172] process terminated
+2020-06-22 14:14:07 pid:30144 worker[none:30172] exit with status 64000
+2020-06-22 14:14:07 pid:30174 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:08 pid:30174 Worker[30174] process terminated
+2020-06-22 14:14:08 pid:30144 worker[none:30174] exit with status 64000
+2020-06-22 14:14:08 pid:30176 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:09 pid:30176 Worker[30176] process terminated
+2020-06-22 14:14:09 pid:30144 worker[none:30176] exit with status 64000
+2020-06-22 14:14:09 pid:30179 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:10 pid:30179 Worker[30179] process terminated
+2020-06-22 14:14:10 pid:30144 worker[none:30179] exit with status 64000
+2020-06-22 14:14:10 pid:30181 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:11 pid:30181 Worker[30181] process terminated
+2020-06-22 14:14:11 pid:30144 worker[none:30181] exit with status 64000
+2020-06-22 14:14:11 pid:30184 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:12 pid:30184 Worker[30184] process terminated
+2020-06-22 14:14:12 pid:30144 worker[none:30184] exit with status 64000
+2020-06-22 14:14:12 pid:30186 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:13 pid:30186 Worker[30186] process terminated
+2020-06-22 14:14:13 pid:30144 worker[none:30186] exit with status 64000
+2020-06-22 14:14:13 pid:30188 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:14 pid:30188 Worker[30188] process terminated
+2020-06-22 14:14:14 pid:30144 worker[none:30188] exit with status 64000
+2020-06-22 14:14:14 pid:30190 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:15 pid:30190 Worker[30190] process terminated
+2020-06-22 14:14:15 pid:30144 worker[none:30190] exit with status 64000
+2020-06-22 14:14:15 pid:30192 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:16 pid:30192 Worker[30192] process terminated
+2020-06-22 14:14:16 pid:30144 worker[none:30192] exit with status 64000
+2020-06-22 14:14:16 pid:30194 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:17 pid:30194 Worker[30194] process terminated
+2020-06-22 14:14:17 pid:30144 worker[none:30194] exit with status 64000
+2020-06-22 14:14:17 pid:30196 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:18 pid:30196 Worker[30196] process terminated
+2020-06-22 14:14:18 pid:30144 worker[none:30196] exit with status 64000
+2020-06-22 14:14:18 pid:30198 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:19 pid:30198 Worker[30198] process terminated
+2020-06-22 14:14:19 pid:30144 worker[none:30198] exit with status 64000
+2020-06-22 14:14:19 pid:30201 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:20 pid:30201 Worker[30201] process terminated
+2020-06-22 14:14:20 pid:30144 worker[none:30201] exit with status 64000
+2020-06-22 14:14:20 pid:30204 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:21 pid:30204 Worker[30204] process terminated
+2020-06-22 14:14:21 pid:30144 worker[none:30204] exit with status 64000
+2020-06-22 14:14:21 pid:30218 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:22 pid:30218 Worker[30218] process terminated
+2020-06-22 14:14:22 pid:30144 worker[none:30218] exit with status 64000
+2020-06-22 14:14:22 pid:30219 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:23 pid:30219 Worker[30219] process terminated
+2020-06-22 14:14:23 pid:30144 worker[none:30219] exit with status 64000
+2020-06-22 14:14:23 pid:30222 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:24 pid:30222 Worker[30222] process terminated
+2020-06-22 14:14:24 pid:30144 worker[none:30222] exit with status 64000
+2020-06-22 14:14:24 pid:30224 Error: Class 'AsyncTcpConnection' not found in /home/mfadel/Projects/PLCController/PLCController.php:39
+Stack trace:
+#0 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(2393): PLCController->{closure}(Object(Workerman\Worker))
+#1 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1541): Workerman\Worker->run()
+#2 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#3 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1345): Workerman\Worker::forkWorkersForLinux()
+#4 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1675): Workerman\Worker::forkWorkers()
+#5 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(1624): Workerman\Worker::monitorWorkersForLinux()
+#6 /home/mfadel/Projects/PLCController/vendor/workerman/workerman/Worker.php(548): Workerman\Worker::monitorWorkers()
+#7 /home/mfadel/Projects/PLCController/PLCController.php(55): Workerman\Worker::runAll()
+#8 /home/mfadel/Projects/PLCController/index.php(6): PLCController->__construct()
+#9 {main}
+2020-06-22 14:14:24 pid:30144 Workerman[index.php] stopping ...
+2020-06-22 14:14:24 pid:30144 Workerman[index.php] has been stopped
+2020-06-22 14:14:25 pid:30226 Workerman[index.php] start in DEBUG mode
+2020-06-22 14:14:52 pid:30226 Workerman[index.php] stopping ...
+2020-06-22 14:14:52 pid:30226 Workerman[index.php] has been stopped
+2020-06-22 14:14:52 pid:30292 Workerman[index.php] start in DEBUG mode
+2020-06-22 15:34:46 pid:30292 Workerman[index.php] stopping ...
+2020-06-22 15:34:46 pid:30292 Workerman[index.php] has been stopped
+2020-06-22 15:34:47 pid:32702 Workerman[index.php] start in DEBUG mode
+2020-06-22 15:35:02 pid:32702 Workerman[index.php] stopping ...
+2020-06-22 15:35:02 pid:32702 Workerman[index.php] has been stopped
+2020-06-22 15:47:42 pid:1923 Workerman[index.php] start in DEBUG mode
+2020-06-22 15:47:49 pid:1923 Workerman[index.php] stopping ...
+2020-06-22 15:47:49 pid:1923 Workerman[index.php] has been stopped
